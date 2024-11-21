@@ -39,7 +39,7 @@ const TodoManagement = ({
 
       <div className="mt-4 mb-14">
         <TodosBlock
-          blockTitle="Uncompleted"
+          blockTitle="Completed"
           todos={completedTodos}
           socket={socket}
         />

@@ -8,8 +8,6 @@ type IProps = {
   socket: Socket;
 };
 const TodosBlock = ({ blockTitle, todos, socket }: IProps) => {
-  console.log(todos);
-
   return (
     <div>
       <div className="flex items-center gap-2  ">

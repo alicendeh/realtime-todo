@@ -1,11 +1,7 @@
 import http from "http";
 import { Server } from "socket.io";
 import express from "express";
-import {
-  addTodo,
-  deleteTodo,
-  updateTodo,
-} from "../controllers/todo.controller.js";
+import { addTodo, deleteTodo, updateTodo } from "../service/todo.service.js";
 
 export const todos = [];
 const app = express();

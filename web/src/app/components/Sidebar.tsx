@@ -26,8 +26,6 @@ const SideBar = ({ incompletedTodos, completedTodos }: IProps) => {
     },
   ];
 
-  console.log(incompletedTodos);
-
   return (
     <div className="h-screen bg-[#F9F9F9] px-4 py-5">
       <div className="flex items-center space-x-3">

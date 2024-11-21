@@ -25,6 +25,7 @@ const CreateTodo = ({ socket }: any) => {
       <div className="flex justify-end mt-4">
         <Button
           type="submit"
+          disabled={newTodo === ""}
           title="Add todo"
           className="bg-blue-600 hover:bg-blue-500"
         />
