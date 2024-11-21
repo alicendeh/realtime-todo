@@ -10,7 +10,7 @@ type IProps = {
 const TodosBlock = ({ blockTitle, todos, socket }: IProps) => {
   return (
     <div>
-      <div className="flex items-center gap-2  ">
+      <div className="flex items-center gap-2">
         <p className="text-xl font-bold">{blockTitle} </p>
         <div className="bg-gray-200 w-6 h-6 rounded-lg flex justify-center items-center text-sm">
           {todos?.length}
